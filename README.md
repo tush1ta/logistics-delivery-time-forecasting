@@ -32,21 +32,6 @@ The result is a single reproducible script that goes from raw (simulated) data �
 
 ---
 
-##  Table of Contents
-
-- [Problem Statement](#-problem-statement)
-- [Dataset](#-dataset)
-- [Methodology](#-methodology)
-- [Results](#-results)
-- [Optimization Results](#-optimization-results)
-- [Repository Structure](#-repository-structure)
-- [Getting Started](#-getting-started)
-- [Tech Stack](#-tech-stack)
-- [Key Takeaways](#-key-takeaways)
-- [Future Improvements](#-future-improvements)
-- [Report](#-full-report)
-- [License](#-license)
-
 ---
 
 ##  Problem Statement
@@ -178,7 +163,7 @@ Since vehicle type is one of the strongest drivers of delivery time, assigning t
 
 At fleet scale (hundreds of routes/day), an 8–10% reduction in dispatch time translates directly into fewer driver-hours and lower cost-to-serve.
 
-### 2️⃣ Stop-Sequencing Optimization (Route Planning)
+### Stop-Sequencing Optimization (Route Planning)
 
 A nearest-neighbor heuristic (a classic approximate TSP solution) re-orders a 10-stop route to minimize total travel distance.
 
